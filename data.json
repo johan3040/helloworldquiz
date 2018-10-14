@@ -1,0 +1,21 @@
+{
+    "questions":[
+        {
+            "id": 0,
+            "question": "Hur mycket väger en elefant?",
+            "answer": "1500",
+            "nextURL": "question1"
+        },
+        {
+            "id": 1,
+            "question": "Vad är nyckeln?",
+            "answer": "1",
+            "nextURL": "question2"
+        },
+        {
+            "id": 2,
+            "question": "Vad är jag?",
+            "answer": "1"
+        }
+    ]
+}
