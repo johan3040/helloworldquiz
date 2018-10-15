@@ -3,25 +3,33 @@
         {
             "id": 0,
             "question": "Lösenordet finns i källkoden,fast baklänges! *hint* Öppna inspektorn",
-            "answer": "1500",
+            "answer": "aporna",
             "nextURL": "question1"
         },
+      
         {
             "id": 1,
-            "question": "<a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
-            "answer": "H2kj",
+            "question": "Googla följande koordinater i maps för att hitta nästa lösenord!<br> 52.464523, 13.397483 <br> 53.311500, -6.261926 <br> 53.296480, -6.133837",
+            "answer": "AG8",
             "nextURL": "question2"
         },
         {
             "id": 2,
-            "question": "52.464523, 13.397483 <br> 53.311500, -6.261926 <br> 53.296480, -6.133837",
-            "answer": "1",
+            "question": "Gör om följande Binära tal till Hexadecimaler!<br>1111+1010+1011+0000 <img src='http://www.hw2sw.com/wp-content/uploads/2011/08/binary-decimal-hex.png'/>",
+            "answer": "FAB7",
             "nextURL": "question3"
         },
         {
             "id": 3,
+            "question": "<a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
+            "answer": "H2kj",
+            "nextURL": "question4"
+        },
+        {
+            "id": 4,
             "question": "Vem är det på bilden? <img src='https://cnet3.cbsistatic.com/img/wUFSDhb2UcS8lz4WjuHqYB6ydyU=/936x527/2009/03/13/e9de6f62-f0ff-11e2-8c7c-d4ae52e62bcc/CERN02.jpg' />",
             "answer": "Tim Berners Lee"
         }
+       
     ]
 }
