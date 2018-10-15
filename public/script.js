@@ -123,8 +123,9 @@ function createGame(){
 
     mouse.addEventListener("mouseover", (e)=>{
         let elem = document.createElement("h4");
-        elem.innerHTML = "mousetrap";
+        elem.innerHTML = "Lösenord: mousetrap";
         document.getElementById("game").appendChild(elem);
+        elem.scrollIntoView({behavior: "smooth"});
     });
 }
 
