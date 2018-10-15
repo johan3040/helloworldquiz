@@ -4,6 +4,7 @@ let id = 0;
 function init(){
    let button = document.querySelector("#startBtn");
    button.addEventListener("click",startGame);
+   console.log("sjögurka")
 
 }
 function startGame(e){
