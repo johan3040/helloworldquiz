@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-#gameField{
-    width: 500px;
-    height: 500px;
-    background-color: black;
-    border-radius: 10px;
-}
 
-#mouse{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: red;
-    position: relative;
-=======
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 h1{
     font-family: 'Source Code Pro', monospace;
@@ -58,5 +44,19 @@ header{
 body{
     text-align: center; 
     font-family:'Source Code Pro', monospace;  
->>>>>>> 72e2abd587737e9c15e13a3bacd8e0f8204a6c2a
+}
+
+#gameField{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#mouse{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
 }
