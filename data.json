@@ -9,7 +9,7 @@
       
         {
             "id": 1,
-            "question": " Uppgift 2: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> 52.464523, 13.397483 <br> 53.311500, -6.261926 <br> 53.296480, -6.133837",
+            "question": "Uppgift 2: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> 52.464523, 13.397483 <br> 53.311500, -6.261926 <br> 53.296480, -6.133837",
             "answer": "AG8",
             "nextURL": "question2"
         },
@@ -54,7 +54,7 @@
         },
         {
             "id": 7,
-            "question": "Den här är enkel... klicka på den röda cirkeln.",
+            "question": "Uppgift 7: Den här är enkel... klicka på den röda cirkeln.",
             "answer": "mousetrap"
         }
        

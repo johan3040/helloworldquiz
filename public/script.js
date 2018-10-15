@@ -4,7 +4,7 @@ let id = 0;
 function init(){
    let button = document.querySelector("#startBtn");
    button.addEventListener("click",startGame);
-   console.log("sjögurka")
+   
 
 }
 function startGame(e){
@@ -37,10 +37,11 @@ function fetchQuestion(url = '/question0'){
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
         if(res.images){
-            console.log("images");
             let container = document.getElementById("photoContainer");
             container.innerHTML += res.images[0];
         }
+        if(res.id == 5) console.log("Lösenord: sjögurka");
+        if(res.id == 3) createSimon();
         if(id == 7)createGame();
     })
 }
@@ -58,6 +59,7 @@ function handleFetch(answer){
     .then(res => res.json())
     .then(res => {
         if(res.success){
+            document.body.style.backgroundColor = "white";
             document.getElementById("userInput").value = "";
             document.getElementById("photoContainer").innerHTML = "";
             if(res.nextURL){
@@ -69,12 +71,29 @@ function handleFetch(answer){
                 }
                 document.getElementById("question").innerHTML = "Grattis du klarade alla frågor! Bygg ihop din kod och räck upp handen snabbast för att vinna!";
                 document.querySelector("#userForm").style.display = "none";
+                document.querySelector("#lastPage").style.display = "inline-block";
             } 
 
         }else{
-            console.log("fel");
+            let inputBtn = document.getElementById("sendBtn");
+            inputBtn.setAttribute("class", "shake");
+            inputBtn.style.border = "3px solid red";
+            setTimeout(()=>{
+                inputBtn.removeAttribute("class", "shake");
+                inputBtn.style.border = "3px solid white";
+            }, 300);
         }
     })
+}
+
+function createSimon(){
+    let elem = document.createElement("p");
+    elem.innerHTML = "Lösenord: simon är kort";
+    elem.style.color = "white";
+    elem.style.position = "absolute";
+    elem.style.top = "80vh";
+    elem.style.left = "10vw";
+    document.body.appendChild(elem);
 }
 
 function createGame(){
