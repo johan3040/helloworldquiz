@@ -40,7 +40,13 @@
         {
             "id": 6,
             "question": " Uppgift 7: <br> Vem är det på bilden? *hint* Högerklicka? <img src='https://cnet3.cbsistatic.com/img/wUFSDhb2UcS8lz4WjuHqYB6ydyU=/936x527/2009/03/13/e9de6f62-f0ff-11e2-8c7c-d4ae52e62bcc/CERN02.jpg' />",
-            "answer": "Tim Berners Lee"
+            "answer": "Tim Berners Lee",
+            "nextURL": "question7"
+        },
+        {
+            "id": 7,
+            "question": "Den här är enkel... klicka på den röda cirkeln.",
+            "answer": "mousetrap"
         }
        
     ]

@@ -14,7 +14,6 @@ function startGame(e){
     fetchQuestion();
     let form = document.getElementById("userForm");
     form.addEventListener("submit", handleClick);
-    createGame();
 }
 function handleClick(e){
     e.preventDefault();
@@ -37,7 +36,7 @@ function fetchQuestion(url = '/question0'){
     .then(res=> {
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
-        
+        if(id == 7)createGame();
     })
 }
 
@@ -60,6 +59,9 @@ function handleFetch(answer){
                 fetchQuestion(res.nextURL);
             }
             else{
+                while(document.getElementById("game").hasChildNodes()){
+                    document.getElementById("game").removeChild(document.getElementById("game").firstChild);
+                }
                 document.getElementById("question").innerHTML = "Grattis du klarade alla frågor! Bygg ihop din kod och räck upp handen snabbast för att vinna!";
                 document.querySelector("#userForm").style.display = "none";
             } 
@@ -94,8 +96,10 @@ function createGame(){
     })
 
     mouse.addEventListener("mouseover", (e)=>{
-        console.log("YOU GOT MEEEE");
-    })
+        let elem = document.createElement("h4");
+        elem.innerHTML = "mousetrap";
+        document.getElementById("game").appendChild(elem);
+    });
 }
 
 
