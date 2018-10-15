@@ -42,6 +42,7 @@ function fetchQuestion(url = '/question0'){
         }
         if(res.id == 5) console.log("Lösenord: sjögurka");
         if(res.id == 3) createSimon();
+        if(res.id == 4) document.body.removeChild(document.getElementById("simon"));
         if(id == 7)createGame();
     })
 }
@@ -88,6 +89,7 @@ function handleFetch(answer){
 
 function createSimon(){
     let elem = document.createElement("p");
+    elem.setAttribute("id", "simon");
     elem.innerHTML = "Lösenord: simon är kort";
     elem.style.color = "white";
     elem.style.position = "absolute";
