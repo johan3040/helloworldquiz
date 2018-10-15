@@ -2,12 +2,20 @@
 let id = 0;
 
 function init(){
+   let button = document.querySelector("#startBtn");
+   button.addEventListener("click",startGame);
+   console.log("sjögurka")
+
+}
+function startGame(e){
+    e.preventDefault();
+    document.querySelector("#userForm").style.display= "block";
+    document.querySelector('#startPage').style.display = 'none';
     fetchQuestion();
     let form = document.getElementById("userForm");
     form.addEventListener("submit", handleClick);
     createGame();
 }
-
 function handleClick(e){
     e.preventDefault();
 
@@ -52,7 +60,8 @@ function handleFetch(answer){
                 fetchQuestion(res.nextURL);
             }
             else{
-                document.getElementById("question").innerHTML = "Grattis du klarade alla frågor!";
+                document.getElementById("question").innerHTML = "Grattis du klarade alla frågor! Bygg ihop din kod och räck upp handen snabbast för att vinna!";
+                document.querySelector("#userForm").style.display = "none";
             } 
 
         }else{

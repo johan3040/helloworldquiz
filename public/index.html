@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Quiz</h1>
+    <!-- Lösenord: anropa -->
+    <header>
+    <h1>Välkomna till Quiz-kampen!</h1>
+</header>
     <h3 id="question"></h3>
+    <div id = "startPage">
+            <h2>Tryck på knappen för att starta</h2>
+            <br><button type="submit" id = "startBtn">Starta</button>
+    </div>
     <form id="userForm">
-        <input type="text" id="userInput" name="answer" />
-        <input type="submit" value="Send" id="sendBtn" />
+        <label>Lösenordet: </label>
+        <br><input type="text" id="userInput" name="answer" /><br>
+       <br> <input type="submit" value="Send" id="sendBtn" />
     </form>
     <div id="game"></div>
     <script src="script.js"></script>
