@@ -9,7 +9,7 @@
       
         {
             "id": 1,
-            "question": " Uppgift 2: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> 52.464523, 13.397483 <br> 53.311500, -6.261926 <br> 53.296480, -6.133837",
+            "question": "Uppgift 2: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> 52.464523, 13.397483 <br> 53.311500, -6.261926 <br> 53.296480, -6.133837",
             "answer": "AG8",
             "nextURL": "question2"
         },
@@ -39,13 +39,13 @@
         },
         {
             "id": 6,
-            "question": " Uppgift 7: <br> Vem är det på bilden? *hint* Högerklicka? <img src='https://cnet3.cbsistatic.com/img/wUFSDhb2UcS8lz4WjuHqYB6ydyU=/936x527/2009/03/13/e9de6f62-f0ff-11e2-8c7c-d4ae52e62bcc/CERN02.jpg' />",
+            "question": "Uppgift 7: <br> Vem är det på bilden? *hint* Högerklicka? <br><img src='https://cnet3.cbsistatic.com/img/wUFSDhb2UcS8lz4WjuHqYB6ydyU=/936x527/2009/03/13/e9de6f62-f0ff-11e2-8c7c-d4ae52e62bcc/CERN02.jpg' />",
             "answer": "Tim Berners Lee",
             "nextURL": "question7"
         },
         {
             "id": 7,
-            "question": "Den här är enkel... klicka på den röda cirkeln.",
+            "question": "Uppgift 7: Den här är enkel... klicka på den röda cirkeln.",
             "answer": "mousetrap"
         }
        

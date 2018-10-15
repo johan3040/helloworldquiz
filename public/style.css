@@ -60,3 +60,7 @@ body{
     background-color: red;
     position: relative;
 }
+#lastPage{
+    text-align: center; 
+    display: none;
+}

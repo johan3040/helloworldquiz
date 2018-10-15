@@ -4,7 +4,7 @@ let id = 0;
 function init(){
    let button = document.querySelector("#startBtn");
    button.addEventListener("click",startGame);
-   console.log("sjögurka")
+   
 
 }
 function startGame(e){
@@ -64,6 +64,7 @@ function handleFetch(answer){
                 }
                 document.getElementById("question").innerHTML = "Grattis du klarade alla frågor! Bygg ihop din kod och räck upp handen snabbast för att vinna!";
                 document.querySelector("#userForm").style.display = "none";
+                document.querySelector("#lastPage").style.display = "inline-block";
             } 
 
         }else{
