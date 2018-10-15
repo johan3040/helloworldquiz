@@ -59,7 +59,8 @@ function handleFetch(answer){
                 fetchQuestion(res.nextURL);
             }
             else{
-                document.getElementById("question").innerHTML = "Grattis du klarade alla frågor!";
+                document.getElementById("question").innerHTML = "Grattis du klarade alla frågor! Bygg ihop din kod och räck upp handen snabbast för att vinna!";
+                document.querySelector("#userForm").style.display = "none";
             } 
 
         }else{
