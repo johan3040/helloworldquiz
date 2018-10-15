@@ -30,7 +30,7 @@ header{
 #userForm{
     text-align: center; 
     font-family:'Source Code Pro', monospace;
-    display:inline-block;  
+    display:none;  
 }
 #startBtn{
     font-family: 'Source Code Pro', monospace;

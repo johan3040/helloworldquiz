@@ -2,11 +2,18 @@
 let id = 0;
 
 function init(){
+   let button = document.querySelector("#startBtn");
+   button.addEventListener("click",startGame);
+
+}
+function startGame(e){
+    e.preventDefault();
+    document.querySelector("#userForm").style.display= "block";
+    document.querySelector('#startPage').style.display = 'none';
     fetchQuestion();
     let form = document.getElementById("userForm");
     form.addEventListener("submit", handleClick);
 }
-
 function handleClick(e){
     e.preventDefault();
 
