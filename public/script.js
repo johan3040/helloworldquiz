@@ -5,6 +5,7 @@ function init(){
     fetchQuestion();
     let form = document.getElementById("userForm");
     form.addEventListener("submit", handleClick);
+    createGame();
 }
 
 function handleClick(e){
@@ -57,6 +58,34 @@ function handleFetch(answer){
         }else{
             console.log("fel");
         }
+    })
+}
+
+function createGame(){
+    let container = document.createElement("div");
+    let mouse = document.createElement("div");
+    container.setAttribute("id", "gameField");
+    mouse.setAttribute("id", "mouse");
+    mouse.style.top = "50px";
+    mouse.style.left = "50px";
+
+    container.appendChild(mouse);
+    document.getElementById("game").appendChild(container);
+
+    let x;
+    let y;
+    container.addEventListener("mousemove", (e)=>{
+        x = e.clientX;
+        y = e.clientY;
+        let mousePos = mouse.getBoundingClientRect();
+        if((((x-mousePos.x)*(x-mousePos.x))+((y-mousePos.y)*(y-mousePos.y))) < (Math.pow(60, 2))){  
+            mouse.style.left = x < 250 ? Math.floor(Math.random()*(420-250+1)+250) + "px" : Math.floor(Math.random()*(230-50+50)+50) + "px";
+            mouse.style.top = y < 250 ? Math.floor(Math.random()*(420-260+1)+260) + "px" : Math.floor(Math.random()*(230-50+50)+50) + "px";
+        }
+    })
+
+    mouse.addEventListener("mouseover", (e)=>{
+        console.log("YOU GOT MEEEE");
     })
 }
 
