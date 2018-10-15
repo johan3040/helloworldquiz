@@ -13,7 +13,7 @@ app.get('/', (req,res)=>{
 
 app.get('/question:id', (req, res)=>{
     let id = req.params.id;
-    res.json({"question": data.questions[id].question, "id": data.questions[id].id});
+    res.json({"question": data.questions[id].question, "id": data.questions[id].id, "images": data.questions[id].images});
 });
 
 app.post('/answer:id', (req,res)=>{

@@ -15,7 +15,10 @@
         },
         {
             "id": 2,
-            "question": "Uppgift 3: <br>Gör om följande Binära tal till Hexadecimaler!<br>1111+1010+1011+0000 <br><img src='http://www.hw2sw.com/wp-content/uploads/2011/08/binary-decimal-hex.png'/>",
+            "question": "Uppgift 3: <br>Gör om följande Binära tal till Hexadecimaler!<br>1111+1010+1011+0000",
+            "images": [
+                "<img src='http://www.hw2sw.com/wp-content/uploads/2011/08/binary-decimal-hex.png' />"
+            ],
             "answer": "FAB7",
             "nextURL": "question3"
         }, 
@@ -27,7 +30,10 @@
         },
         {
             "id": 4,
-            "question": "Uppgift 5: <br> Ladda ner bilden, och kolla dess info,där hittar ni lösenordet!<br>  <a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
+            "question": "Uppgift 5: <br> Ladda ner bilden, och kolla dess info,där hittar ni lösenordet!",
+            "images": [
+                "<a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>"
+            ],
             "answer": "H2kj",
             "nextURL": "question5"
         },
@@ -39,7 +45,10 @@
         },
         {
             "id": 6,
-            "question": " Uppgift 7: <br> Vem är det på bilden? *hint* Högerklicka? <img src='https://cnet3.cbsistatic.com/img/wUFSDhb2UcS8lz4WjuHqYB6ydyU=/936x527/2009/03/13/e9de6f62-f0ff-11e2-8c7c-d4ae52e62bcc/CERN02.jpg' />",
+            "question": " Uppgift 7: <br> Vem är det på bilden? *hint* Högerklicka?",
+            "images":[
+                "<img src='https://cnet3.cbsistatic.com/img/wUFSDhb2UcS8lz4WjuHqYB6ydyU=/936x527/2009/03/13/e9de6f62-f0ff-11e2-8c7c-d4ae52e62bcc/CERN02.jpg' />"
+            ],
             "answer": "Tim Berners Lee",
             "nextURL": "question7"
         },

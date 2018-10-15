@@ -36,6 +36,11 @@ function fetchQuestion(url = '/question0'){
     .then(res=> {
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
+        if(res.images){
+            console.log("images");
+            let container = document.getElementById("photoContainer");
+            container.innerHTML += res.images[0];
+        }
         if(id == 7)createGame();
     })
 }
@@ -54,7 +59,7 @@ function handleFetch(answer){
     .then(res => {
         if(res.success){
             document.getElementById("userInput").value = "";
-
+            document.getElementById("photoContainer").innerHTML = "";
             if(res.nextURL){
                 fetchQuestion(res.nextURL);
             }
