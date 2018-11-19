@@ -2,7 +2,7 @@
     "questions":[
         {
             "id": 0,
-            "question": "Uppgift 1: <br>Lösenordet finns i källkoden,fast baklänges! *hint* Öppna inspektorn",
+            "question": "Uppgift 1: <br>Lösenordet finns i källkoden, fast baklänges! *hint* Öppna inspektorn",
             "answer": "aporna",
             "nextURL": "question1"
         },
