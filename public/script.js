@@ -36,13 +36,6 @@ function fetchQuestion(url = '/question0'){
     .then(res=> {
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
-        if(res.images){
-            let container = document.getElementById("photoContainer");
-            container.innerHTML += res.images[0];
-        }
-        if(res.id == 5) console.log("Lösenord: sjögurka");
-        if(res.id == 3) createSimon();
-        if(res.id == 4) document.body.removeChild(document.getElementById("simon"));
         if(id == 7)createGame();
     })
 }
@@ -60,9 +53,8 @@ function handleFetch(answer){
     .then(res => res.json())
     .then(res => {
         if(res.success){
-            document.body.style.backgroundColor = "white";
             document.getElementById("userInput").value = "";
-            document.getElementById("photoContainer").innerHTML = "";
+
             if(res.nextURL){
                 fetchQuestion(res.nextURL);
             }
@@ -76,26 +68,9 @@ function handleFetch(answer){
             } 
 
         }else{
-            let inputBtn = document.getElementById("sendBtn");
-            inputBtn.setAttribute("class", "shake");
-            inputBtn.style.border = "3px solid red";
-            setTimeout(()=>{
-                inputBtn.removeAttribute("class", "shake");
-                inputBtn.style.border = "3px solid white";
-            }, 300);
+            console.log("fel");
         }
     })
-}
-
-function createSimon(){
-    let elem = document.createElement("p");
-    elem.setAttribute("id", "simon");
-    elem.innerHTML = "Lösenord: simon är kort";
-    elem.style.color = "white";
-    elem.style.position = "absolute";
-    elem.style.top = "80vh";
-    elem.style.left = "10vw";
-    document.body.appendChild(elem);
 }
 
 function createGame(){
@@ -123,9 +98,8 @@ function createGame(){
 
     mouse.addEventListener("mouseover", (e)=>{
         let elem = document.createElement("h4");
-        elem.innerHTML = "Lösenord: mousetrap";
+        elem.innerHTML = "mousetrap";
         document.getElementById("game").appendChild(elem);
-        elem.scrollIntoView({behavior: "smooth"});
     });
 }
 
