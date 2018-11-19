@@ -32,7 +32,7 @@
         },
         {
             "id": 5,
-            "question": "Uppgift 6: <br> Ladda ner bilden, och kolla dess info, där hittar ni lösenordet!<br>  <a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
+            "question": "Uppgift 6: <br> Ladda ner bilden, och kolla dess info, där hittar ni lösenordet!<br><a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
             "answer": "H2kj",
             "nextURL": "question6"
         },
