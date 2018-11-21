@@ -12,6 +12,8 @@ function startGame(e){
     document.querySelector("#userForm").style.display= "block";
     document.querySelector('#startPage').style.display = 'none';
     fetchQuestion();
+    let hint = document.querySelector("#hintBtn")
+    hint.addEventListener("click",handleClick);
     let form = document.getElementById("userForm");
     form.addEventListener("submit", handleClick);
 }

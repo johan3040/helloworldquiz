@@ -2,56 +2,56 @@
     "questions":[
         {
             "id": 0,
-            "question": "Uppgift 1: <br>Lösenordet finns i källkoden,fast baklänges! *hint* Öppna inspektorn",
+            "question": "Uppgift 0: <br>Lösenordet finns i källkoden, fast baklänges! *hint* Öppna inspektorn",
             "answer": "aporna",
             "nextURL": "question1"
         },
       
         {
             "id": 1,
-            "question": "Uppgift 2: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> A = 52.464523, 13.397483 <br> B = 53.311500, -6.261926 <br> C = 53.296480, -6.133837",
+            "question": "Uppgift 1: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> A = 52.464523, 13.397483 <br> B = 53.311500, -6.261926 <br> C = 53.296480, -6.133837",
             "answer": "AG8",
             "nextURL": "question2"
         },
         {
             "id": 2,
-            "question": "Uppgift 3: <br> Gör om följande Binary tal till Hex!<br>1111, 1010, 1011, 0111 <br><img src='http://www.hw2sw.com/wp-content/uploads/2011/08/binary-decimal-hex.png'/>",
+            "question": "Uppgift 2: <br> Gör om följande Binary tal till Hex!<br>1111, 1010, 1011, 0111 <br><img src='http://www.hw2sw.com/wp-content/uploads/2011/08/binary-decimal-hex.png'/>",
             "answer": "FAB7",
             "nextURL": "question3"
         }, 
         {
             "id": 3,
-            "question": "Uppgift 4: Vilka programmeringsspråk kan man lära sig på en meetup i Växjö?<br> A= Python, Scratch, Java <br> B= C++, Scratch, Assembly, Swift <br> C= Python, Webb(javaScript),Scratch",
+            "question": "Uppgift 3: Vilka programmeringsspråk kan man lära sig på en meetup i Växjö?<br> A= Python, Scratch, Java <br> B= C++, Scratch, Assembly, Swift <br> C= Python, Webb(javaScript),Scratch",
             "answer": "C",
             "nextURL": "question4"
         }, 
          {
             "id": 4,
-            "question": "Uppgift 5: <br>Ändra färgen på websidan så att lösenordet syns! *hint* Öppna inspektorn och ändra värderna på stilsättningen",
+            "question": "Uppgift 4: <br>Ändra färgen på websidan så att lösenordet syns! *hint* Öppna inspektorn och ändra värderna på stilsättningen",
             "answer": "simon är kort",
             "nextURL": "question5"
         },
         {
             "id": 5,
-            "question": "Uppgift 6: <br> Ladda ner bilden, och kolla dess info, där hittar ni lösenordet!<br><a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
+            "question": "Uppgift 5: <br> Ladda ner bilden, och kolla dess info, där hittar ni lösenordet!<br><a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
             "answer": "H2kj",
             "nextURL": "question6"
         },
         {
             "id": 6,
-            "question":"Uppgift 7: <br> Nästa lösenord hittar du i inspektorns console!",
+            "question":"Uppgift 6: <br> Nästa lösenord hittar du i inspektorns console!",
             "answer": "sjögurka",
             "nextURL": "question7"
         },
         {
             "id": 7,
-            "question": "Uppgift 8: <br> Vem är det på bilden? <br><img src='https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/ada_lovelace_portrait_by_chalon_1838.jpg?itok=4dzsoJbv&resize=1100x1100' />",
+            "question": "Uppgift 7: <br> Vem är det på bilden? <br><img src='https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/ada_lovelace_portrait_by_chalon_1838.jpg?itok=4dzsoJbv&resize=1100x1100' />",
             "answer": "Ada Lovelace",
             "nextURL": "question8"
         },
         {
             "id": 8,
-            "question": "Uppgift 9: Den här är enkel... klicka på den röda cirkeln.",
+            "question": "Uppgift 8: Den här är enkel... klicka på den röda cirkeln.",
             "answer": "mousetrap"
         }
        
