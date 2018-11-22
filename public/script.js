@@ -38,7 +38,7 @@ function fetchQuestion(url = '/question0'){
     .then(res=> {
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
-        if(id == 7)createGame();
+        if(id == 8)createGame();
     })
 }
 
