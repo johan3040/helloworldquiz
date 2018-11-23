@@ -8,7 +8,7 @@
         },
         {
             "id": 1,
-            "question": "<> -Kallas för taggar och talar om för datorn att det som står innanför är kod och den kan vara väldigt många olika saker.<br> Slut-taggen har alltid ett snedsträck för att tala om att den kodbiten är färdig. <br><img src='./pics/code1.jpg'/> Skriv in ordet Klar i Lösenordsrutan för att komma vidare",
+            "question": "<> -Kallas för taggar och talar om för datorn att det som står innanför är kod och den kan vara väldigt många olika saker.<br> Slut-taggen har alltid ett snedsträck för att tala om att den kodbiten är färdig. <br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code1.jpg'/>",
             "answer": "Klar",
             "nextURL": "question2"
         },
@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "question": "<!Doctype html> - säger till din webbläsare att den skall läsa HTML <html> -Säger att det är början på ett HTML dokument. <br><img src='./pics/code2.png'/> Skriv in ordet Klar i Lösenordsrutan för att komma vidare",
+            "question": "<!Doctype html> - säger till din webbläsare att den skall läsa HTML <html> -Säger att det är början på ett HTML dokument.<br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code2.png'/>",
             "answer": "Klar",
             "nextURL": "question4"
         },
