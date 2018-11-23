@@ -87,7 +87,7 @@
         },
         {
             "id": 14,
-            "question": "Uppgift 7: <br> Vem är det på bilden? <br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/250px-Ada_Lovelace_portrait.jpg' />",
+            "question": "Uppgift 7: <br> Vem är det på bilden? *Hint* Högerklicka? <br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/250px-Ada_Lovelace_portrait.jpg' />",
             "answer": "Ada Lovelace",
             "nextURL": "question15"
         },
