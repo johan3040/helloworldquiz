@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "question": "<!Doctype html> - säger till din webbläsare att den skall läsa HTML <html> -Säger att det är början på ett HTML dokument.<br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code2.png'/>",
+            "question": "<!Doctype html> - säger till din webbläsare att den skall läsa HTML <pre><html> </pre> -Säger att det är början på ett HTML dokument.<br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code2.png'/>",
             "answer": "Klar",
             "nextURL": "question4"
         },
@@ -31,7 +31,13 @@
             "nextURL": "question5"
         }, 
         {
-            "id": 3,
+            "id": 5,
+            "question": "<head> -Håller övergripande information om dokumentet som till exempel vilka tecken som kan användas.<h1> -Skapar en header med högsta prioritet. Den kopplas till CSS och kan stylas med hjälp av det.<br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code3.png'/>",
+            "answer": "Klar",
+            "nextURL": "question6"
+        },
+        {
+            "id": 6,
             "question": "Uppgift 3: Vilka programmeringsspråk kan man lära sig på en meetup i Växjö?<br> A= Python, Scratch, Java <br> B= C++, Scratch, Assembly, Swift <br> C= Python, Webb(javaScript),Scratch",
             "answer": "C",
             "nextURL": "question4"
