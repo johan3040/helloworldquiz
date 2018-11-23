@@ -43,7 +43,7 @@ function fetchQuestion(url = '/question0'){
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
         if(res.id == 1)
-        if(res.id == 5) console.log("Lösenord: sjögurka");
+        if(res.id == 6) console.log("Lösenord: sjögurka");
         if(res.id == 3) createSimon();
         if(res.id == 5) document.body.removeChild(document.querySelector("#simon"));
         if(id == 9)createGame();

@@ -6,7 +6,12 @@
             "answer": "aporna",
             "nextURL": "question1"
         },
-      
+        {
+            "id": 1,
+            "question": "Hej <br><img src='./pics/code1.png'",
+            "answer": "aporna",
+            "nextURL": "question2"
+        },
         {
             "id": 1,
             "question": "Uppgift 1: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> A = 52.464523, 13.397483 <br> B = 53.311500, -6.261926 <br> C = 53.296480, -6.133837",
