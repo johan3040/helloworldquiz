@@ -41,7 +41,7 @@ function fetchQuestion(url = '/question0'){
     .then(res=> res.json())
     .then(res=> {
         id = res.id;
-        document.getElementById("question").innerText = res.question;
+        document.getElementById("question").innerHTML = res.question;
         if(res.id == 1)
         if(res.id == 6) console.log("Lösenord: sjögurka");
         if(res.id == 3) createSimon();

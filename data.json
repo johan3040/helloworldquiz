@@ -8,7 +8,7 @@
         },
         {
             "id": 1,
-            "question": "<> -Kallas för taggar och talar om för datorn att det som står innanför är kod och den kan vara väldigt många olika saker.<br> Slut-taggen har alltid ett snedsträck för att tala om att den kodbiten är färdig. <br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code1.jpg'/>",
+            "question": "<img src='./pics/code1.png'/>",
             "answer": "Klar",
             "nextURL": "question2"
         },
