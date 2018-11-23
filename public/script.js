@@ -36,11 +36,11 @@ function fetchQuestion(url = '/question0'){
     .then(res=> {
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
-        if(res.id == 12) createLogAnswer();
-        if(res.id == 8) createSimon();
-        if(res.id == 9) document.body.removeChild(document.querySelector("#simon"));
-        if(id == 16)createGame();
-        if(res.id==17) removeGame();
+        if(id == 8)     createSimon();
+        if(id == 9)     document.body.removeChild(document.querySelector("#simon"));
+        if(id == 12)    createLogAnswer();
+        if(id == 16)    createGame();
+        if(id == 17)    removeGame();
     })
 }
 
@@ -63,9 +63,6 @@ function handleFetch(answer){
                 fetchQuestion(res.nextURL);
             }
             else{
-                while(document.getElementById("game").hasChildNodes()){
-                    document.getElementById("game").removeChild(document.getElementById("game").firstChild);
-                }
                 document.getElementById("question").innerHTML = "Grattis du klarade alla frågor!";
                 document.querySelector("#userForm").style.display = "none";
             } 
@@ -123,9 +120,10 @@ function createGame(){
         document.getElementById("game").appendChild(elem);
         elem.scrollIntoView({behavior: "smooth"});
     });
-    function removeGame(){
-        document.removeChild(document.querySelector("#game"));
+}
 
-    }
+function removeGame(){
+    document.body.removeChild(document.querySelector("#game"));
+
 }
 window.addEventListener("load", init);
