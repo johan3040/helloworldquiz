@@ -11,6 +11,7 @@ function startGame(e){
     e.preventDefault();
     document.querySelector("#userForm").style.display= "block";
     document.querySelector('#startPage').style.display = 'none';
+    document.querySelector("#hintBtn").style.display = 'none';
     fetchQuestion();
     let hint = document.querySelector("#hintBtn")
     hint.addEventListener("click",handleClick);
@@ -19,6 +20,8 @@ function startGame(e){
 }
 function handleClick(e){
     e.preventDefault();
+    console.log("hint")
+    document.getElementById("hintBtn").innerHTML = "hejsan här har du en hint"
 
     let form = document.getElementById("userForm");
     let formData = new FormData(form);
