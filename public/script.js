@@ -48,13 +48,6 @@ function fetchQuestion(url = '/question0'){
         if(id == 8)createGame();
     })
 }
-function createSimon(){
-    let elem = document.createElement("p");
-    elem.setAttribute("id", "simon");
-    elem.innerHTML = "Lösenord: simon är kort";
-    elem.style.color = "white";
-    elem.style.position = "absolute";
-}
 
 function handleFetch(answer){
     let options= {
@@ -87,6 +80,16 @@ function handleFetch(answer){
             console.log("fel");
         }
     })
+}
+function createSimon(){
+    let elem = document.createElement("p");
+    elem.setAttribute("id", "simon");
+    elem.innerHTML = "Lösenord: simon är kort";
+    elem.style.color = "white";
+    elem.style.position = "absolute";
+    elem.style.top = "80vh";
+    elem.style.left = "10vw";
+    document.body.appendChild(elem);
 }
 
 function createGame(){
