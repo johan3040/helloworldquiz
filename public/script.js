@@ -69,7 +69,7 @@ function handleFetch(answer){
                 }
                 document.getElementById("question").innerHTML = "Grattis du klarade alla frågor!";
                 document.querySelector("#userForm").style.display = "none";
-                document.querySelector("#lastPage").style.display = "inline-block";
+               // document.querySelector("#lastPage").style.display = "inline-block";
             } 
 
         }else{
