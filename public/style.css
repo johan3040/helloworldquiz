@@ -84,6 +84,7 @@ body{
     animation: shake 0.8s;
     animation-iteration-count: 1;
     border: 3px solid red;
+    outline: 3px solid red;
 }
 
 @keyframes shake {

@@ -42,8 +42,7 @@ function fetchQuestion(url = '/question0'){
     .then(res=> {
         id = res.id;
         document.getElementById("question").innerHTML = res.question;
-        if(res.id == 1)
-        if(res.id == 12) console.log("Lösenord: sjögurka");
+        if(res.id == 12) createLogAnswer();
         if(res.id == 8) createSimon();
         if(res.id == 9) document.body.removeChild(document.querySelector("#simon"));
         if(id == 16)createGame();
@@ -78,9 +77,17 @@ function handleFetch(answer){
 
         }else{
             console.log("fel");
+            let btn = document.getElementById("sendBtn");
+            btn.classList.add("shake");
+            setTimeout(()=> btn.classList.remove("shake"), 800);
         }
     })
 }
+
+function createLogAnswer(){
+    console.log("Lösenord: sjögurka");
+}
+
 function createSimon(){
     let elem = document.createElement("p");
     elem.setAttribute("id", "simon");
