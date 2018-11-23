@@ -24,10 +24,7 @@ header{
     text-align: center; 
     font-family:'Source Code Pro', monospace;
     display:none;  
-    border-radius: 5px;
-    height:30px;
-    width: 60px;
-    border-color:black; 
+    
 }
 #startBtn{
     font-family: 'Source Code Pro', monospace;
