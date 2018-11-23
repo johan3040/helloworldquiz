@@ -40,6 +40,7 @@ function fetchQuestion(url = '/question0'){
         if(res.id == 8) createSimon();
         if(res.id == 9) document.body.removeChild(document.querySelector("#simon"));
         if(id == 16)createGame();
+        if(res.id==17) removeGame();
     })
 }
 
@@ -122,8 +123,9 @@ function createGame(){
         document.getElementById("game").appendChild(elem);
         elem.scrollIntoView({behavior: "smooth"});
     });
+    function removeGame(){
+        document.removeChild(document.querySelector("#game"));
+
+    }
 }
-
-
-
 window.addEventListener("load", init);

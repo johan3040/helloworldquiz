@@ -87,7 +87,7 @@
         },
         {
             "id": 14,
-            "question": "Uppgift 7: <br> Vem är det på bilden? <br><img src='https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/ada_lovelace_portrait_by_chalon_1838.jpg?itok=4dzsoJbv&resize=1100x1100' />",
+            "question": "Uppgift 7: <br> Vem är det på bilden? <br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/250px-Ada_Lovelace_portrait.jpg' />",
             "answer": "Ada Lovelace",
             "nextURL": "question15"
         },
