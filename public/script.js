@@ -119,6 +119,7 @@ function createGame(){
         let elem = document.createElement("h4");
         elem.innerHTML = "mousetrap";
         document.getElementById("game").appendChild(elem);
+        elem.scrollIntoView({behavior: "smooth"});
     });
 }
 
