@@ -67,7 +67,7 @@ function handleFetch(answer){
                 while(document.getElementById("game").hasChildNodes()){
                     document.getElementById("game").removeChild(document.getElementById("game").firstChild);
                 }
-                document.getElementById("question").innerHTML = "Grattis du klarade alla frågor! Bygg ihop din kod och räck upp handen snabbast för att vinna!";
+                document.getElementById("question").innerHTML = "Grattis du klarade alla frågor!";
                 document.querySelector("#userForm").style.display = "none";
                 document.querySelector("#lastPage").style.display = "inline-block";
             } 
