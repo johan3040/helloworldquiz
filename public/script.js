@@ -48,6 +48,13 @@ function fetchQuestion(url = '/question0'){
         if(id == 7)createGame();
     })
 }
+function createSimon(){
+    let elem = document.createElement("p");
+    elem.setAttribute("id", "simon");
+    elem.innerHTML = "Lösenord: simon är kort";
+    elem.style.color = "white";
+    elem.style.position = "absolute";
+}
 
 function handleFetch(answer){
     let options= {
