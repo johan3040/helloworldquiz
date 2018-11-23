@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "question": "<!Doctype html> - säger till din webbläsare att den skall läsa HTML <pre><html> </pre> -Säger att det är början på ett HTML dokument.<br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code2.png'/>",
+            "question": "<img src='./pics/code2.png'/>",
             "answer": "Klar",
             "nextURL": "question4"
         },
@@ -32,7 +32,7 @@
         }, 
         {
             "id": 5,
-            "question": "<head> -Håller övergripande information om dokumentet som till exempel vilka tecken som kan användas.<h1> -Skapar en header med högsta prioritet. Den kopplas till CSS och kan stylas med hjälp av det.<br> Skriv in ordet Klar i Lösenordsrutan för att komma vidare.<br><img src='./pics/code3.png'/>",
+            "question": "<img src='./pics/code3.png'/>",
             "answer": "Klar",
             "nextURL": "question6"
         },
@@ -40,14 +40,27 @@
             "id": 6,
             "question": "Uppgift 3: Vilka programmeringsspråk kan man lära sig på en meetup i Växjö?<br> A= Python, Scratch, Java <br> B= C++, Scratch, Assembly, Swift <br> C= Python, Webb(javaScript),Scratch",
             "answer": "C",
-            "nextURL": "question4"
+            "nextURL": "question7"
         }, 
+        {
+            "id": 7,
+            "question": "<img src='./pics/code4.png'/>",
+            "answer": "Klar",
+            "nextURL": "question8"
+        },
          {
-            "id": 4,
+            "id": 8,
             "question": "Uppgift 4: <br>Ändra färgen på websidan så att lösenordet syns! *hint* Öppna inspektorn och ändra värderna på stilsättningen",
             "answer": "simon är kort",
-            "nextURL": "question5"
+            "nextURL": "question9"
         },
+        {
+            "id": 9,
+            "question": "<img src='./pics/code5.png'/>",
+            "answer": "Klar",
+            "nextURL": "question10"
+        },
+        
         {
             "id": 5,
             "question": "Uppgift 5: <br> Ladda ner bilden, och kolla dess info, där hittar ni lösenordet!<br><a href='./pics/action-blur-close-up-735911.jpg' download><img src='./pics/action-blur-close-up-735911.jpg' /> </a>",
