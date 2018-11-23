@@ -80,22 +80,34 @@
             "nextURL": "question13"
         },
         {
-            "id": 7,
+            "id": 13,
+            "question": "<img src='./pics/code7.png'/>",
+            "answer": "Klar",
+            "nextURL": "question14"
+        },
+        {
+            "id": 14,
             "question": "Uppgift 7: <br> Vem är det på bilden? <br><img src='https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/ada_lovelace_portrait_by_chalon_1838.jpg?itok=4dzsoJbv&resize=1100x1100' />",
             "answer": "Ada Lovelace",
-            "nextURL": "question8"
+            "nextURL": "question15"
         },
         {
-            "id": 8,
-            "question": "<img src='h' />",
+            "id": 15,
+            "question": "<img src='./pics/code8.png'/>",
             "answer": "Klar",
-            "nextURL": "question9"
+            "nextURL": "question16"
         },
         {
-            "id": 9,
+            "id": 16,
             "question": "Uppgift 8: Den här är enkel... klicka på den röda cirkeln.",
-            "answer": "mousetrap"
+            "answer": "mousetrap",
+            "nextURL": "question17"
+        },
+        {
+            "id": 17,
+            "question": "<img src='./pics/code9.png'/>",
+            "answer": "Klar"
+            
         }
-       
     ]
 }

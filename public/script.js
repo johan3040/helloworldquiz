@@ -46,7 +46,7 @@ function fetchQuestion(url = '/question0'){
         if(res.id == 12) console.log("Lösenord: sjögurka");
         if(res.id == 8) createSimon();
         if(res.id == 9) document.body.removeChild(document.querySelector("#simon"));
-        if(id == 9)createGame();
+        if(id == 16)createGame();
     })
 }
 
@@ -74,7 +74,6 @@ function handleFetch(answer){
                 }
                 document.getElementById("question").innerHTML = "Grattis du klarade alla frågor!";
                 document.querySelector("#userForm").style.display = "none";
-               // document.querySelector("#lastPage").style.display = "inline-block";
             } 
 
         }else{
