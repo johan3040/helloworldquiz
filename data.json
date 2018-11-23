@@ -8,21 +8,27 @@
         },
         {
             "id": 1,
-            "question": "<> -Kallas för taggar och talar om för datorn att det som står innanför är kod och den kan vara väldigt många olika saker.<br> Slut-taggen har alltid ett snedsträck för att tala om att den kodbiten är färdig. <br><img src='./pics/code1.jpg'/>",
-            "answer": "aporna",
-            "nextURL": "question2"
-        },
-        {
-            "id": 1,
-            "question": "Uppgift 1: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> A = 52.464523, 13.397483 <br> B = 53.311500, -6.261926 <br> C = 53.296480, -6.133837",
-            "answer": "AG8",
+            "question": "<> -Kallas för taggar och talar om för datorn att det som står innanför är kod och den kan vara väldigt många olika saker.<br> Slut-taggen har alltid ett snedsträck för att tala om att den kodbiten är färdig. <br><img src='./pics/code1.jpg'/> Skriv in ordet Klar i Lösenordsrutan för att komma vidare",
+            "answer": "Klar",
             "nextURL": "question2"
         },
         {
             "id": 2,
+            "question": "Uppgift 1: <br>Googla följande koordinater i maps för att hitta nästa lösenord!<br> A = 52.464523, 13.397483 <br> B = 53.311500, -6.261926 <br> C = 53.296480, -6.133837",
+            "answer": "AG8",
+            "nextURL": "question3"
+        },
+        {
+            "id": 3,
+            "question": "<!Doctype html> - säger till din webbläsare att den skall läsa HTML <html> -Säger att det är början på ett HTML dokument. <br><img src='./pics/code2.png'/> Skriv in ordet Klar i Lösenordsrutan för att komma vidare",
+            "answer": "Klar",
+            "nextURL": "question4"
+        },
+        {
+            "id": 4,
             "question": "Uppgift 2: <br> Gör om följande Binary tal till Hex!<br>1111, 1010, 1011, 0111 <br><img src='http://www.hw2sw.com/wp-content/uploads/2011/08/binary-decimal-hex.png'/>",
             "answer": "FAB7",
-            "nextURL": "question3"
+            "nextURL": "question5"
         }, 
         {
             "id": 3,
