@@ -41,6 +41,7 @@ header{
     height:30px;
     width: 60px;
     border-color:black; 
+    display:none;  
 }
 body{
     text-align: center; 
