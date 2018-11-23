@@ -68,10 +68,16 @@
             "nextURL": "question11"
         },
         {
-            "id": 6,
+            "id": 11,
+            "question": "<img src='./pics/code6.png'/>",
+            "answer": "Klar",
+            "nextURL": "question12"
+        },
+        {
+            "id": 12,
             "question":"Uppgift 6: <br> Nästa lösenord hittar du i inspektorns console!",
             "answer": "sjögurka",
-            "nextURL": "question7"
+            "nextURL": "question13"
         },
         {
             "id": 7,
@@ -81,7 +87,7 @@
         },
         {
             "id": 8,
-            "question": " Skriv in ordet Klar i rutan när du skrivit Koden <br><img src='https://dfgh5erbttm3r.cloudfront.net/uploads/article/hero_image/3066/thumb_the-perfect-poop-16-9.jpg' />",
+            "question": "<img src='h' />",
             "answer": "Klar",
             "nextURL": "question9"
         },
